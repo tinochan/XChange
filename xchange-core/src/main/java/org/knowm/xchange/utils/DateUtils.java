@@ -45,7 +45,7 @@ public class DateUtils {
   public static String toUTCString(Date date) {
 
     SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
-    sd.setTimeZone(TimeZone.getTimeZone("GMT"));
+    sd.setTimeZone(TimeZone.getTimeZone("Asia/Hong_Kong"));
     return sd.format(date);
   }
 
