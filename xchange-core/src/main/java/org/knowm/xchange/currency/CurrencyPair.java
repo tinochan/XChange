@@ -89,6 +89,7 @@ public class CurrencyPair implements Comparable<CurrencyPair>, Serializable {
   public static final CurrencyPair ETH_CNY = new CurrencyPair(Currency.ETH, Currency.CNY);
   public static final CurrencyPair ETH_AUD = new CurrencyPair(Currency.ETH, Currency.AUD);
   public static final CurrencyPair ETH_NZD = new CurrencyPair(Currency.ETH, Currency.NZD);
+  public static final CurrencyPair ETH_HKD = new CurrencyPair(Currency.ETH, Currency.HKD);
 
   public static final CurrencyPair XAUR_BTC = new CurrencyPair(Currency.XAUR, Currency.BTC);
 
