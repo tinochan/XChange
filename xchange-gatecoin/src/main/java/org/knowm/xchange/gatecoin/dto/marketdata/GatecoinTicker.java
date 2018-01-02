@@ -137,7 +137,7 @@ public final class GatecoinTicker {
   @Override
   public String toString() {
 
-    return "GatecoinTicker [last=" + last + ",open=" + open + ",volumn=" + volumn + ", high=" + high + ", low=" + low + ", vwap=" + vwap + ", volume="
+    return "GatecoinTicker [currencyPair=" + currencyPair +",last=" + last + ",open=" + open + ",volumn=" + volumn + ", high=" + high + ", low=" + low + ", vwap=" + vwap + ", volume="
         + volume + ", bid=" + bid + ", ask=" + ask + ", timestamp=" + createDateTime + "]";
   }
 
